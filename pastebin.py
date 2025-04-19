@@ -5,10 +5,7 @@ import requests
 import sublime
 import sublime_plugin
 
-
-def setting(name, view, default=None):
-    default = sublime.load_settings("Pastebin.sublime-settings").get(name, default)
-    return view.settings().get(name, default)
+from .utils import langs, setting
 
 
 class PastebinShareCommand(sublime_plugin.TextCommand):
@@ -24,9 +21,7 @@ class PastebinShareCommand(sublime_plugin.TextCommand):
         else:
             paste_name = "Untitled"
 
-        langs = {"js": "javascript", "html": "html5"}
-        syntax = self.view.scope_name(0).split(" ")[0].split(".")[-1]
-        syntax = langs.get(syntax, syntax)
+        syntax = langs.get(self.view.scope_name(0).split(" ")[0].split(".")[-1])
 
         dev_key = setting("pastebin_dev_key", self.view)
         private = setting("pastebin_private", self.view)
