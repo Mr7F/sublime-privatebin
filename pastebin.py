@@ -12,6 +12,9 @@ class PastebinShareCommand(sublime_plugin.TextCommand):
     """Create a pastebin and copy the URL in the clipboard.
 
     > https://pastebin.com/doc_api
+
+    TODO: allow choosing other services like
+    > https://paste.rs/
     """
 
     def run(self, edit, selection=False):
