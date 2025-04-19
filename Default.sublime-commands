@@ -1,0 +1,11 @@
+[
+    {
+        "caption": "Pastebin: Share File",
+        "command": "pastebin_share"
+    },
+        {
+        "caption": "Pastebin: Share Selection",
+        "command": "pastebin_share",
+        "args": {"selection": true}
+    },
+]

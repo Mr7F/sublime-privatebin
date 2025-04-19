@@ -1,0 +1,29 @@
+[
+  {
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children": [
+      {
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children": [
+          {
+            "caption": "Pastebin",
+            "children": [
+              {
+                "caption": "Settings",
+                "command": "edit_settings",
+                "args": {
+                  "base_file": "${packages}/sublime-pastebin/Pastebin.sublime-settings",
+                  "default": "{\n\t$0\n}\n"
+                }
+              },
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
