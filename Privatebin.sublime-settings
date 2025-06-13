@@ -1,0 +1,28 @@
+{
+    "share_bin_mode": "privatebin", // privatebin, pastebin
+    // -----------
+    // Private bin
+    // -----------
+    "privatebin_instance": "https://privatebin.net",
+    "privatebin_expire ": "2month",
+    // 1day
+    // 1week
+    // 1month
+    // 1year
+    // ---------
+    // Paste bin
+    // ---------
+    "pastebin_dev_key ": null,
+    // 0 = public / 1 = unlisted
+    "pastebin_private ": 1,
+    // N = Never
+    // 10M = 10 Minutes
+    // 1H = 1 Hour
+    // 1D = 1 Day
+    // 1W = 1 Week
+    // 2W = 2 Weeks
+    // 1M = 1 Month
+    // 6M = 6 Months
+    // 1Y = 1 Year
+    "pastebin_expire ": "2M",
+}

@@ -10,13 +10,13 @@
         "id": "package-settings",
         "children": [
           {
-            "caption": "Pastebin",
+            "caption": "Privatebin",
             "children": [
               {
                 "caption": "Settings",
                 "command": "edit_settings",
                 "args": {
-                  "base_file": "${packages}/sublime-pastebin/Pastebin.sublime-settings",
+                  "base_file": "${packages}/sublime-privatebin/Privatebin.sublime-settings",
                   "default": "{\n\t$0\n}\n"
                 }
               },

@@ -2,11 +2,11 @@ import sublime
 
 
 def setting(name, view, default=None):
-    default = sublime.load_settings("Pastebin.sublime-settings").get(name, default)
+    default = sublime.load_settings("Privatebin.sublime-settings").get(name, default)
     return view.settings().get(name, default)
 
 
-langs = {
+pastbin_langs = {
     "4cs": "4cs",
     "6502acme": "6502acme",
     "6502kickass": "6502kickass",

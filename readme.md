@@ -1,3 +1,3 @@
-# Sublime - Pastebin
+# Sublime - Private bin
 
-Share file / selection in pastebin.com.
+Share file / selection in privatebin or pastebin.
