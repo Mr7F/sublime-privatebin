@@ -71,4 +71,5 @@ class PrivatebinShareCommand(sublime_plugin.TextCommand):
                 sublime.set_clipboard(url)
                 sublime.status_message("URL copied")
 
+        sublime.status_message("Uploading bin")
         sublime.set_timeout_async(_run_async)
