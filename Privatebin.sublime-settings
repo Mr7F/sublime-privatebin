@@ -3,8 +3,8 @@
     // -----------
     // Private bin
     // -----------
+    "privatebin_expire": "1week",
     "privatebin_instance": "https://privatebin.net",
-    "privatebin_expire ": "2month",
     // 1day
     // 1week
     // 1month
@@ -12,7 +12,7 @@
     // ---------
     // Paste bin
     // ---------
-    "pastebin_dev_key ": null,
+    "pastebin_dev_key": null,
     // 0 = public / 1 = unlisted
     "pastebin_private ": 1,
     // N = Never
